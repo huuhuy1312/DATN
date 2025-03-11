@@ -1,0 +1,86 @@
+.voucher-container{
+    width:45rem;
+    height:50rem;
+    background:white;
+    margin:auto;
+    align-self:center;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+}
+.voucher-header{
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #0002;
+    height: 12%;
+}
+.voucher-body{
+    padding-left: 30px;
+    overflow-y: scroll;
+    height: 78%;
+    z-index: 1;
+}
+.voucher-item-container {
+    display: flex;
+    height: 10rem;
+    align-items: center;
+    width: 90%;
+    margin-top: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); /* Tạo viền mờ dần */
+    position: relative;
+    justify-content: space-between;
+    padding: 0rem 1rem;
+}
+.voucher-item-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3); /* Màu đen với độ mờ 30% */
+    z-index: 3; /* Đặt lớn hơn tất cả các phần tử khác để chặn */
+}
+.voucher-item-container
+img
+{
+    height: 80px;
+}
+.voucher-item-content{
+    align-self: center;
+    margin-left: 20px;
+}
+.voucher-footer{
+    height: 10%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: end;
+    padding-right: 30px;
+}
+.voucher-btn{
+    border: none;
+    padding: 10px 30px;
+    margin-right: 10px;
+}
+.voucher-btn-back{
+    color: #00a2e8;
+    font-size: 14px;
+    background-color: white;
+    border: 1px solid #00a2e8;
+}
+.btn-submit{
+    padding: 10px 40px;
+    color:  white;
+    font-size: 14px;
+    background-color: #00a2e8;
+    border: 1px solid #00a2e8;
+}
+.btn-show{
+    margin-top: 5px;
+    width: 90%;
+    border: none;
+    padding: 10px 0px;
+}
+button:focus {
+    outline: none; /* Bỏ viền khi nút được focus */
+}

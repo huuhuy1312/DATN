@@ -1,0 +1,94 @@
+.shop-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 20px;
+    border-bottom: 2px solid #f0f0f0;
+    width: 70%;
+    margin: auto;
+}
+
+.shop-info {
+    display: flex;
+    align-items: center;
+}
+
+.shop-logo {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 20px;
+    object-fit: cover;
+}
+
+.shop-details h1 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.status {
+    color: gray;
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.follow-btn, .chat-btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.follow-btn {
+    background-color: #f53d2d;
+    color: white;
+}
+
+.chat-btn {
+    background-color: #00bfa5;
+    color: white;
+}
+
+.follow-btn:hover {
+    background-color: #e02c1b;
+}
+
+.chat-btn:hover {
+    background-color: #009d87;
+}
+
+.shop-stats {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    color: #333;
+}
+
+.stat-item {
+    text-align: center;
+}
+
+.stat-item p {
+    margin: 0;
+    color: gray;
+    font-size: 13px;
+}
+
+.stat-item span {
+    display: block;
+    font-weight: bold;
+    font-size: 16px;
+    color: #f53d2d;
+}

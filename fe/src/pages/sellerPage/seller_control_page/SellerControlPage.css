@@ -1,0 +1,134 @@
+.scp-dashboard-app{
+  margin-left: 270px;
+  padding: 20px;
+  width: calc(100% - 270px);
+  background-color: white;
+  margin-right: 50px;
+}
+.scp-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px;
+    background-color: #fff;
+    border-bottom: 2px solid #3498db;
+  }
+  
+  .scp-header h1 {
+    font-size: 2.4rem;
+    font-weight: bold;
+  }
+  
+  .scp-clock {
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .scp-dashboard {
+    padding: 20px;
+  }
+  
+  .scp-widgets {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .scp-widget {
+    width: 23%;
+    display: flex;
+    background-color: #fff;
+    padding: 1.5rem;
+    border-radius: 0.8rem;
+    border-left: 0.5rem solid #3498db;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
+  }
+  
+  .scp-icon {
+    font-size: 3.2rem;
+    margin-right: 1.5rem;
+  }
+  
+  .scp-widget-info h4 {
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
+    color: #333;
+  }
+  
+  .scp-widget-info p {
+    font-size: 1.3rem;
+    color: #777;
+  }
+  
+  .scp-charts {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+  }
+  
+  .scp-chart-container {
+    flex: 1 1 48%;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    border-top: 3px solid #3498db;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    height: 50rem;
+    overflow: hidden;
+  }
+  
+  .scp-chart-container canvas {
+    max-height: 100%;
+    width: 100% !important;
+  }
+  
+  .scp-tables {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .scp-table-container {
+    flex: 1 1 48%;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    border-top: 3px solid #3498db;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow-x: auto;
+  }
+  
+  .scp-table-container table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  .scp-table-container th, .scp-table-container td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .scp-table-container th {
+    background-color: #f9f9f9;
+    color: #333;
+  }
+  
+  .scp-status {
+    padding: 5px 10px;
+    border-radius: 12px;
+    color: #fff;
+    font-size: 12px;
+  }
+  
+  .scp-status-info { background-color: #17a2b8; }
+  .scp-status-warning { background-color: #ffc107; }
+  .scp-status-success { background-color: #28a745; }
+  .scp-status-danger { background-color: #dc3545; }
+  .scpc-chart{
+    height: 45rem !important;
+  }

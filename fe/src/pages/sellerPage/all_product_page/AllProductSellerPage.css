@@ -1,0 +1,334 @@
+.apsp-container {
+    margin-left: 270px;
+    padding: 20px;
+    width: calc(100% - 270px);
+    background-color: white;
+    margin-right: 50px;
+}
+
+.apsp-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.apsp-tabs {
+    display: flex;
+    list-style-type: none;
+}
+
+.apsp-tabs li {
+    margin-right: 20px;
+    color: #333;
+}
+
+.apsp-tabs li.apsp-active {
+    color: red;
+    font-weight: bold;
+}
+
+.apsp-buttons button {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 10px 20px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.apsp-buttons .apsp-add-product {
+    background-color: #ff4c4c;
+    color: #fff;
+    border: none;
+}
+
+.apsp-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.apsp-search-bar {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.apsp-search-bar input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.apsp-product-table table {
+    width: 100%;
+    border: 1px solid #ddd;
+    border-collapse: collapse;
+}
+
+.apsp-product-table th, .apsp-product-table td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.apsp-product-info {
+    display: flex;
+    align-items: center;
+}
+
+.apsp-thumbnail {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.apsp-product-name {
+    font-weight: bold;
+}
+
+.apsp-content-quality {
+    color: orange;
+    font-weight: bold;
+}
+
+.apsp-content-note {
+    color: #777;
+    font-size: 0.9em;
+}
+
+.apsp-variant-row td {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.apsp-variant {
+    color: #333;
+    display: flex;
+}
+.apsp-variant
+img{
+    width: 5rem;
+    height: 5rem;
+    object-fit: cover;
+}
+.apsp-actions {
+    white-space: nowrap;
+}
+
+.apsp-action-link {
+    color: #007bff;
+    cursor: pointer;
+    margin-right: 8px;
+}
+
+.apsp-pagination {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.apsp-pagination-controls button, .apsp-pagination-controls select {
+    margin-left: 5px;
+    padding: 5px;
+}
+/* Cấu hình bảng */
+.apsp-product-table table {
+    width: 100%;
+    border: 1px solid #ddd;
+    border-collapse: collapse;
+    table-layout: fixed; /* Đảm bảo các cột có chiều rộng cố định */
+}
+
+.apsp-product-table th, .apsp-product-table td {
+    padding: 10px 12px; /* Điều chỉnh padding cho cân đối */
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    overflow: hidden;
+    text-overflow: ellipsis; /* Cắt chữ nếu quá dài */
+    white-space: nowrap; /* Không xuống dòng */
+}
+
+/* Thiết lập tỷ lệ các cột */
+.apsp-product-table th:first-child, .apsp-product-table td:first-child {
+    width: 5%; /* Cột checkbox */
+}
+
+
+.apsp-product-table th:nth-child(3), .apsp-product-table td:nth-child(3) {
+    width: 15%; /* Cột doanh số */
+}
+
+.apsp-product-table th:nth-child(4), .apsp-product-table td:nth-child(4) {
+    width: 15%; /* Cột giá */
+}
+
+.apsp-product-table th:nth-child(5), .apsp-product-table td:nth-child(5) {
+    width: 15%; /* Cột kho hàng */
+}
+
+.apsp-product-table th:nth-child(6), .apsp-product-table td:nth-child(6) {
+    width: 20%; /* Cột thao tác */
+}
+
+/* Cấu hình hình ảnh sản phẩm */
+.apsp-thumbnail, .apsp-variant img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+/* Hàng biến thể sản phẩm */
+.apsp-variant-row td {
+    background-color: #f9f9f9; /* Màu nền nhạt hơn cho biến thể */
+    padding: 10px 12px;
+    border: none;
+}
+
+/* Thiết kế thông tin sản phẩm */
+.apsp-product-info {
+    display: flex;
+    align-items: center;
+}
+
+/* Văn bản màu sắc cho liên kết thao tác */
+.apsp-actions {
+    white-space: nowrap;
+}
+
+.apsp-action-link {
+    color: #007bff;
+    cursor: pointer;
+    margin-right: 8px;
+}
+
+/* Cấu hình phân trang */
+.apsp-pagination {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.apsp-pagination-controls button, .apsp-pagination-controls select {
+    margin-left: 5px;
+    padding: 5px;
+}
+
+/* Đổi màu sắc của tab đang hoạt động */
+.apsp-tabs li.apsp-active {
+    color: #ff4c4c;
+    font-weight: bold;
+}
+
+
+/* Cấu hình bảng */
+.allProPage-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    margin-top: 20px;
+}
+
+/* Cấu hình tiêu đề bảng */
+.allProPage-table th {
+    background-color: #f8f9fa;
+    color: #333;
+    padding: 12px;
+    text-align: center;
+    font-size: 14px;
+    border: 1px solid #dee2e6;
+}
+
+/* Cấu hình các hàng dữ liệu */
+.allProPage-table td {
+    padding: 12px;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid #dee2e6;
+    font-size: 14px;
+}
+
+/* Cấu hình checkbox ở đầu bảng */
+.allProPage-table th input[type="checkbox"] {
+    margin-left: 10px;
+}
+
+/* Căn chỉnh ảnh trong bảng */
+.allProPage-table td .allProPage-img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    margin: 0 5px;
+}
+
+/* Cải thiện thẻ badge tình trạng hàng */
+.allProPage-badge.allProPage-bg-success {
+    background-color: #28a745;
+    color: #fff;
+    font-size: 12px;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+/* Định dạng các nút hành động */
+.allProPage-btn {
+    padding: 6px 12px;
+    font-size: 12px;
+    margin: 0 5px;
+}
+
+.allProPage-btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.allProPage-btn-sm {
+    padding: 4px 8px;
+}
+
+/* Tăng cường khoảng cách các cột */
+.allProPage-table td:nth-child(1), .allProPage-table th:nth-child(1) {
+    width: 50px;  /* Cột checkbox */
+}
+
+.allProPage-table td:nth-child(2), .allProPage-table th:nth-child(2) {
+    width: 120px;  /* Cột mã sản phẩm */
+}
+
+.allProPage-table td:nth-child(3), .allProPage-table th:nth-child(3) {
+    width: 200px;  /* Cột tên sản phẩm */
+}
+
+.allProPage-table td:nth-child(4), .allProPage-table th:nth-child(4) {
+    width: 150px;  /* Cột ảnh sản phẩm */
+}
+
+.allProPage-table td:nth-child(5), .allProPage-table th:nth-child(5) {
+    width: 100px;  /* Cột số lượng */
+}
+
+.allProPage-table td:nth-child(6), .allProPage-table th:nth-child(6) {
+    width: 120px;  /* Cột tình trạng */
+}
+
+.allProPage-table td:nth-child(7), .allProPage-table th:nth-child(7) {
+    width: 150px;  /* Cột giá tiền */
+}
+
+.allProPage-table td:nth-child(8), .allProPage-table th:nth-child(8) {
+    width: 150px;  /* Cột danh mục */
+}
+
+.allProPage-table td:nth-child(9), .allProPage-table th:nth-child(9) {
+    width: 150px;  /* Cột chức năng */
+}
+
+/* Cải thiện khi hover qua các hàng */
+.allProPage-table tbody tr:hover {
+    background-color: #f1f1f1;
+}

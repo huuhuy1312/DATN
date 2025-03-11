@@ -1,0 +1,14 @@
+.link{
+    font-size: .75rem;
+    color: #05a;;
+}
+
+.register{
+    text-align: center;
+    margin-top: 15px;
+    font-size: .825rem;
+    color: rgba(0,0,0,.26);
+}
+.register a{
+    color: #ee4d2d;
+}

@@ -1,0 +1,36 @@
+.choose-ship-methods-container{
+    width: 60rem;
+    height: 60rem;
+    background:white;
+    margin:auto;
+    align-self:center;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    padding: 30px;
+}
+.choose-ship-methods-body{
+    height: 80%;
+}
+.choose-ship-methods-item{
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-left: 5px solid gray;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.choose-ship-methods-header{
+    margin-bottom: 10px;
+}
+.item-header{
+    display: flex;
+}
+.choose-ship-methods-item{
+    display: flex;
+}
+.choose-item{
+    border-left: 5px solid #3498db;
+}
+.choose-ship-methods-list{
+    overflow-y: scroll;
+    height: 100%;
+}

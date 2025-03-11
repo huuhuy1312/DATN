@@ -1,0 +1,162 @@
+.sp-top-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #28a745;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+.sp-title {
+    font-size: 24px;
+}
+
+.sp-user-info {
+    display: flex;
+    align-items: center;
+}
+
+.sp-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.sp-username {
+    font-size: 16px;
+}
+
+.sp-search-bar {
+    display: flex;
+    gap: 10px;
+    padding: 15px;
+    background-color: #e0f7df;
+}
+
+.sp-input, .sp-select {
+    padding: 8px;
+    border: 1px solid #ddd;
+    flex: 1;
+}
+
+.sp-search-button {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 8px 15px;
+    cursor: pointer;
+}
+
+.sp-action-buttons {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.sp-button {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.sp-order-summary {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 10px;
+    background-color: #f0fff0;
+    gap: 10px;
+}
+
+.sp-summary-card {
+    background-color: #e0f7df;
+    padding: 15px;
+    text-align: center;
+    border-radius: 5px;
+    flex: 1;
+}
+.sp-summary-card-active {
+    background-color: #28a745;
+    padding: 15px;
+    text-align: center;
+    border-radius: 5px;
+    flex: 1;
+}
+
+.sp-summary-card p {
+    margin: 5px 0;
+    font-weight: bold;
+    color: #28a745;
+}
+.sp-summary-card-active p {
+    margin: 5px 0;
+    font-weight: bold;
+    color: white;
+}
+.sp-order-list {
+    margin: 20px;
+}
+
+.sp-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.sp-table th, .sp-table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.sp-table th {
+    background-color: #28a745;
+    color: #fff;
+}
+
+.sp-complete-button {
+    background-color: #28a745;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.sp-complete-button:hover {
+    background-color: #218838;
+}
+
+
+.header__navbar-user-menu {
+    position: absolute;
+    z-index: 1;
+    padding-left: 0;
+    list-style: none;
+    top: calc(100% + 6px);
+    right: 0;
+    background-color: var(--white-color);
+    border-radius: 2px;
+    width: 160px;
+    box-shadow: 0 1px 2px #e0e0e0;
+    display: none;
+}
+.header__navbar-user-menu::before{
+    content: "";
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 20px;
+    top: -10px;
+}
+.header__navbar-user-menu::after{
+    content: "";
+    position: absolute;
+    
+    border-style: solid;
+    border-width: 20px 30px;
+    border-color: transparent transparent var(--white-color) transparent;
+    right: 0px;
+    top: -30px;
+}

@@ -1,0 +1,102 @@
+.my-acc-body {
+    display: flex;
+    padding: 20px;
+    font-family:  sans-serif;
+    width: 80%;
+    margin: auto;
+}
+
+.nav-bar {
+    width: 20%;
+    padding: 10px;
+    border-radius: 5px;
+}
+.content{
+    width: 80%;
+}
+.avatar {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.avatar-img img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.avatar-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.avatar-info div:first-child {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.avatar-info div:last-child {
+    color: #888;
+    cursor: pointer;
+}
+
+.navigate {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.item-no-spec {
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    color: #333;
+    font-size: 16px;
+    position: relative;
+}
+
+.item-content {
+    margin-left: 10px;
+}
+
+.sub-menu {
+    list-style: none;
+    padding-left: 30px; /* Adjust this for indentation */
+    margin-top: 10px;
+    display: block;
+    flex-direction: column; /* Ensure the items stack vertically */
+}
+
+.sub-menu li {
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #555;
+}
+
+.content {
+    flex: 1;
+    background-color: #f9f9f9;
+}
+.item-spec{
+    margin-bottom: 15px;
+    display: block;
+    align-items: center;
+    cursor: pointer;
+    color: #333;
+    font-size: 16px;
+    position: relative;
+}
+.item-spec
+div{
+    display: flex;
+}
+.table-profile{
+    width: 100%;
+    
+}
+.table-profile-tr{
+    display: flex;
+}

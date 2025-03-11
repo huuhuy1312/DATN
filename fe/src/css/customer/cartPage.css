@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f6f6f6;
+}
+.header-cart-page {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ff5722;
+    padding: 10px;
+    color: white;
+}
+
+.logo img {
+    width: 150px;
+}
+
+.search-bar input {
+    padding: 8px;
+    width: 300px;
+}
+
+.search-bar button {
+    padding: 8px;
+    background-color: white;
+    border: none;
+    color: #ff5722;
+    cursor: pointer;
+}
+
+.user-info span {
+    margin: 0 15px;
+}
+
+.cart-title {
+    margin: 20px;
+}
+
+.cart-section {
+    background-color: white;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+}
+
+.cart-item:last-child {
+    border-bottom: none;
+}
+
+.item-checkbox {
+    margin-right: 20px;
+}
+
+.item-details {
+    display: flex;
+    align-items: center;
+}
+
+.item-image {
+    width: 80px;
+    height: 80px;
+    margin-right: 20px;
+}
+
+.item-info h3 {
+    font-size: 16px;
+    color: #333;
+}
+
+.item-info p {
+    color: #666;
+    font-size: 12px;
+}
+
+.item-pricing {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.original-price {
+    text-decoration: line-through;
+    color: #999;
+}
+
+.discounted-price {
+    color: #ff5722;
+    font-size: 18px;
+}
+
+.quantity {
+    display: flex;
+    align-items: center;
+}
+
+.quantity-btn {
+    background-color: #eee;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.quantity input {
+    width: 30px;
+    text-align: center;
+    margin: 0 5px;
+}
+
+.total-price {
+    color: #ff5722;
+}
+
+.remove-item {
+    color: red;
+    cursor: pointer;
+}
+
+.cart-summary {
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.cart-summary p {
+    margin-right: 50px;
+    font-size: 18px;
+}
+
+.checkout-btn {
+    background-color: #ff5722;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}

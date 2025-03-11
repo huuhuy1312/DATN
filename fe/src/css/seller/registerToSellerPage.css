@@ -1,0 +1,197 @@
+.shop-form-container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+  }
+  
+  .stepper {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    border-bottom: 1px solid gray;
+  }
+  
+  .step {
+    width: 18%;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    color: #999;
+    position: relative;
+  }
+  
+  .circle {
+    width: 10px;
+    height: 10px;
+    background-color: #fff;
+    border: 2px solid #3498db;
+    border-radius: 50%;
+    position: absolute;
+    top: -5px;
+    left: calc(50% - 5px);
+  }
+  
+  .step.active .circle {
+    background-color: #3498db;
+  }
+  .shop-form{
+    width: 70%;
+    margin: 0 auto;
+  }
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .char-count {
+    text-align: right;
+    font-size: 12px;
+    color: #999;
+  }
+  
+  .add-address-btn {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-top: 10px;
+  }
+  
+  .add-address-btn:hover {
+    background-color: #f9f9f9;
+  }
+  
+  .form-buttons {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .save-btn,
+  .prev-btn,
+  .next-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    background-color: #3498db;
+    color: #fff;
+  }
+  
+  .save-btn {
+    background-color: #ccc;
+    color: #fff;
+  }
+  
+  .next-btn:hover {
+    background-color: #3498db;
+  }
+  
+  .form-step-placeholder {
+    text-align: center;
+  }
+  
+  .completion {
+    text-align: center;
+  }
+  
+  .completion h3 {
+    color: green;
+  }
+  
+  .form-container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    background-color: #fff;
+  }
+  
+  h2 {
+    text-align: center;
+    color: #3498db;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .radio-group label {
+    /* margin-right: 20px; */
+  }
+  
+  .radio-group input {
+    margin-right: 8px;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+    input[type="file"] {
+      width: 100%;
+      padding: 8px;
+    }
+  
+  input[type="checkbox"] {
+    margin-right: 8px;
+  }
+  
+  .button-group {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .submit-btn, .cancel-btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .submit-btn {
+    background-color: #3498db;
+    color: #fff;
+  }
+  
+  .cancel-btn {
+    background-color: #ccc;
+    color: #333;
+  }
+  
+  .error {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+    display: block; /* Hiển thị lỗi như một dòng riêng */
+  }
+  

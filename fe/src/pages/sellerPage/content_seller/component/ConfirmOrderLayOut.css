@@ -1,0 +1,143 @@
+.cfol-layout {
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.cfol-container {
+    background-color: white;
+    width: 60rem;
+    max-width: 100%;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    position: relative;
+}
+
+.cfol-header {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.colo-order-info {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    align-items: center;
+}
+
+.colo-order-info div {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    display: block;
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 5px;
+}
+
+.date-input-box {
+    display: flex;
+    align-items: center;
+}
+
+.date-picker {
+    width: 80%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.date-suffix {
+    margin-left: 10px;
+    background-color: #fff;
+    color: #ff5722;
+    border: 1px solid #ff5722;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-weight: bold;
+}
+
+.cfol-input {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.address-box {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #f9f9f9;
+}
+
+.address-box p {
+    margin: 0;
+    font-size: 14px;
+    color: #333;
+}
+
+.pickup {
+    color: green;
+    font-weight: bold;
+}
+
+.return {
+    color: #007bff;
+    font-weight: bold;
+}
+
+.default {
+    color: #ff5722;
+    font-weight: bold;
+}
+
+.change-link {
+    color: #007bff;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.form-actions {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+
+.cfol-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.cfol-button.confirm {
+    background-color: #ff5722;
+    color: white;
+}
+
+.cfol-button.cancel {
+    background-color: #ddd;
+    color: #333;
+}

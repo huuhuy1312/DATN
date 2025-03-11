@@ -1,0 +1,121 @@
+/* Nền của pop-up container */
+.acc-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Nền xám mờ */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999; /* Đảm bảo pop-up nổi lên trên các phần tử khác */
+}
+
+/* Form của pop-up */
+.acc-form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 50rem; /* Chiều rộng của pop-up */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+}
+
+/* Các nhóm nhập liệu */
+.acc-form-group {
+    margin-bottom: 2rem;
+}
+
+/* Nút đóng pop-up (Cancel) */
+.acc-cancel-btn {
+    padding: 10px 20px;
+    background-color: #ccc;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 14px;
+    transition: background-color 0.3s;
+}
+
+/* Nút hủy */
+.acc-cancel-btn:hover {
+    background-color: #888;
+}
+
+/* Nút lưu */
+.acc-save-btn {
+    padding: 10px 20px;
+    background-color: #3498dbc4;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 14px;
+    transition: background-color 0.3s;
+    margin: 0 auto;
+}
+
+/* Nút lưu hover */
+.acc-save-btn:hover {
+    background-color: #3498db;
+}
+
+/* Các input trong form */
+.acc-form input,
+.acc-form select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+/* Các label */
+.acc-form label {
+    font-weight: bold;
+    font-size: 14px;
+
+}
+
+/* Cải thiện giao diện cho nhóm select (Chọn tỉnh, quận, phường) */
+.acc-form-select {
+    font-size: 14px;
+}
+
+/* Các nhóm select bên cạnh nhau cho tỉnh, quận, phường */
+.acc-form-group .acc-form-select {
+    margin-right: 10px;
+}
+
+/* Thêm khoảng cách giữa các nhóm select */
+.acc-form-group {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+/* Cải thiện hiển thị các input cho địa chỉ chi tiết */
+.acc-form input[type="text"]:focus {
+    outline: none;
+    border-color: #007bff;
+}
+
+/* Hiệu ứng cho các select khi focus */
+.acc-form select:focus {
+    outline: none;
+    border-color: #007bff;
+}
+
+/* Đảm bảo các nút được căn chỉnh */
+.acc-form .acc-form-group button {
+    width: 48%; /* Để nút có cùng chiều rộng */
+    margin-right: 4%; /* Để có khoảng cách giữa các nút */
+}
+
+.acc-form .acc-form-group button:last-child {
+    margin-right: 0;
+}

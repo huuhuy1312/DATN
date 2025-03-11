@@ -1,0 +1,132 @@
+.sn-container {
+  background-color: white; /* Form background */
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Card shadow effect */
+  width: 100%;
+  max-width: 600px; /* Limit the width of the form */
+  margin: 20px;
+  box-sizing: border-box;
+}
+
+.sn-heading {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Form styling */
+.sn-form {
+  width: 100%;
+}
+
+.sn-form-group {
+  margin-bottom: 20px;
+}
+
+.sn-label {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 8px;
+  display: block;
+  color: #555;
+}
+
+.sn-input,
+.sn-textarea,
+.sn-select,
+.sn-search-input,
+.sn-file-input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 6px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  color: #555;
+}
+
+.sn-textarea {
+  height: 120px;
+  resize: vertical;
+}
+
+.sn-select {
+  cursor: pointer;
+}
+
+.sn-file-input {
+  padding: 8px;
+  cursor: pointer;
+}
+
+.sn-file-name,
+.sn-placeholder {
+  margin-top: 8px;
+  font-size: 14px;
+  color: #555;
+}
+
+.sn-placeholder {
+  color: #888;
+  font-style: italic;
+}
+
+.sn-submit-button {
+  width: 100%;
+  padding: 12px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.sn-submit-button:hover {
+  background-color: #0056b3;
+}
+
+/* Search input styling */
+.sn-search-input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 6px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .sn-container {
+    padding: 20px;
+  }
+
+  .sn-input,
+  .sn-textarea,
+  .sn-select,
+  .sn-search-input,
+  .sn-file-input,
+  .sn-submit-button {
+    font-size: 14px;
+    padding: 8px;
+  }
+
+  .sn-submit-button {
+    font-size: 14px;
+    padding: 10px;
+  }
+}
+/* Image preview styling */
+.sn-image-preview {
+    margin-top: 15px;
+    max-width: 100%;
+    max-height: 200px; /* Limit the height of the preview image */
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  

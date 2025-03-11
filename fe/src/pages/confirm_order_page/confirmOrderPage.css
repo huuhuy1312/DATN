@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+*{
+    font-size: 14;
+}
+.title {
+    font-size: 30px;
+    color: white;
+    font-family: 'Satisfy', cursive;
+    border-left: 1px solid white;
+    padding-left: 20px;
+}
+.confirm-order-body{
+    padding-top: 10px;
+    background-color: #f5f5f5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.dashed-border{
+    background-image: repeating-linear-gradient(45deg, #6fa6d6, #6fa6d6 33px, transparent 0, transparent 41px, #f18d9b 0, #f18d9b 74px, transparent 0, transparent 82px);
+    background-position-x: -30px;
+    background-size: 116px 3px;
+    height: 3px;
+    width: 100%;
+}
+.address-info{
+    width: 85%;
+    background-color: #ffffff;
+
+}
+.address-info-header{
+    display: flex;
+    color: rgba(52,152,219,0.8);
+    margin-bottom: 1rem;
+}
+.address-info-content{
+    padding: 1.5rem 3rem;
+}
+.address-info-body{
+    display: flex;
+}
+.order-info{
+    width: 85%;
+}
+.chat-with-shop{
+    margin-top: 10px;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+    height: 5rem;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+}
+.order-group{
+    background-color: white;  
+    padding: 20px 30px;
+    padding-top: 10px;
+}
+.order-group-header{
+    display: flex;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.order-group-header
+div{
+    padding: 0;
+    margin: auto;
+}
+.spec{
+    text-align: center;
+}
+.order-footer{
+    display:flex;
+    background-color: white;
+}
+.note-to-seller{
+    width: 40%;
+    display: flex;
+    border: 1px dashed rgba(0,0,0,0.2);
+    padding: 20px;
+}
+.shipping-methods{
+    display: flex;
+    width: 60%;
+    border: 1px dashed rgba(0,0,0,0.2);
+    border-left: none;
+    padding: 20px 20px;
+    padding-left: 0;
+}
+.note-to-seller-input{
+    width: 75%;
+    height: 3.2rem;
+    border: 0;
+    box-sizing: border-box;
+    color: #222;
+    flex: 1;
+    font-size: 1.25rem;
+    outline: none;
+    border-radius: 2px;
+}
+.total-price{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px 20px;
+    background-color: white;
+    margin-bottom: 20px;
+    
+}
+.voucher{
+    display: flex;
+    background-color: white;
+    padding: 20px 10px;
+    width: 85%;
+    margin-bottom: 20px;
+}
+.payment-method{
+    background-color: white;
+    width: 85%;
+    margin-bottom: 20px;
+}
+.payment-header{
+    display: flex;
+    padding: 20px 10px;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+.payment-body{
+    padding-top: 20px;
+    padding-right: 20px;
+    border-bottom: 1px dashed rgba(0,0,0,0.3);
+}
+.payment-body
+th{
+    color: rgba(0, 0, 0, .54);
+    font-weight: 400;
+}
+.cop-table {
+    margin-left: auto;
+    border-collapse: collapse;
+    width: 40%;
+}
+
+.confirm-order-td{
+    display: flex;
+    justify-content: flex-end;
+}
+.payment-body
+tr,
+th,
+td{
+    padding: 15px;
+    border: none;
+}
+.payment-footer{
+    display: flex;
+    padding: 10px;
+    
+}
+.layout{
+    width: 100%;
+    height: 100%;
+    background-color: #0006;
+    position: fixed;
+    z-index: 1;
+    display: flex
+}
+.address-container{
+    width: 45rem;
+
+    background-color: white;
+    border-radius: 5px;
+    margin: auto;
+}
+.address-header{
+    padding: 15px;
+    border-bottom: 1px solid rgba(0,0,0,0.3);
+}
+.address-body{
+    margin-bottom: 10px;
+    border-bottom: 1px solid rgba(0,0,0,0.3);
+    height: 80%;
+}
+.address-item{
+    display: flex;
+    padding: 20px 10px;
+    
+    margin: 0px 10px;
+    margin-bottom: 10px;
+}
+.address-item-border{
+    border-bottom: 1px solid rgba(0,0,0,0.3);
+}
+.address-item
+input{
+    width: 2rem;
+}
+.address-footer{
+    height: 10%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 5px 10px;
+}
+.address-footer
+button{
+    background-color: "white";
+    border: none;
+    width: 10rem;
+    padding: 10px 0px;
+    margin-left: 10px;
+}
+
+

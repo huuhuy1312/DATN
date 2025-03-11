@@ -1,0 +1,105 @@
+spring:
+  config:
+    import: optional:configserver:http://localhost:8888
+  application:
+    name: gateway
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+      routes:
+#        Product-SERVICE
+        - id: product-controller
+          uri: lb:http://PRODUCT-SERVICE
+          predicates:
+            - Path=/api/product/**
+        - id: category-controller
+          uri: lb:http://PRODUCT-SERVICE
+          predicates:
+            - Path=/api/category/**
+        - id: rate-controller
+          uri: lb:http://PRODUCT-SERVICE
+          predicates:
+            - Path=/api/rate/**
+        - id: supplier-controller
+          uri: lb:http://PRODUCT-SERVICE
+          predicates:
+            - Path=/api/supplier/**
+        - id: type-of-product-controller
+          uri: lb:http://PRODUCT-SERVICE
+          predicates:
+            - Path=/api/type-of-product/**
+#        User-Service
+        - id: auth-controller
+          uri: lb:http://USER-SERVICE
+          predicates:
+            - Path=/api/auth/**
+        - id: customer-controller
+          uri: lb:http://USER-SERVICE
+          predicates:
+            - Path=/api/customer/**
+        - id: order-controller
+          uri: lb:http://USER-SERVICE
+          predicates:
+            - Path=/api/order/**
+        - id: seller-controller
+          uri: lb:http://USER-SERVICE
+          predicates:
+            - Path=/api/seller/**
+        - id: email-controller
+          uri: lb:http://USER-SERVICE
+          predicates:
+            - Path=/api/email/**
+#        Order-Service
+        - id: address-controller
+          uri: lb:http://ORDER-SERVICE
+          predicates:
+            - Path=/api/address/**
+        - id: item-controller
+          uri: lb:http://ORDER-SERVICE
+          predicates:
+            - Path=/api/item/**
+        - id: order-controller
+          uri: lb:http://ORDER-SERVICE
+          predicates:
+            - Path=/api/order/**
+        - id: order-line-controller
+          uri: lb:http://ORDER-SERVICE
+          predicates:
+            - Path=/api/order-line/**
+        - id: shipper-controller
+          uri: lb:http://ORDER-SERVICE
+          predicates:
+            - Path=/api/shipper/**
+        - id: shipping-methods-controller
+          uri: lb:http://ORDER-SERVICE
+          predicates:
+            - Path=/api/shipping-methods/**
+        - id: voucher-controller
+          uri: lb:http://ORDER-SERVICE
+          predicates:
+            - Path=/api/voucher/**
+        - id: warehouse-controller
+          uri: lb:http://ORDER-SERVICE
+          predicates:
+            - Path=/api/warehouse/**
+#        File-Service
+        - id: file-controller
+          uri: lb:http://FILE-SERVICE
+          predicates:
+            - Path=/file/**
+#        Chat-Service
+        - id: message-controller
+          uri: lb:http://CHAT-SERVICE
+          predicates:
+            - Path=/api/message/**
+#       Notification-Service
+server:
+  port: 8020
+
+management:
+  tracing:
+    sampling:
+      probability: 1.0
+

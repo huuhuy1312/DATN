@@ -1,0 +1,110 @@
+.mcp-container {
+    padding: 20px;
+  }
+  
+  .mcp-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .mcp-actions {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .mcp-search-input {
+    width: 300px;
+  }
+  
+  .mcp-tree-columns {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .mcp-tree-column {
+    padding: 5px;
+    width: 430px;
+
+  }
+  
+  .mcp-column-title {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .mcp-tree-node {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 400px; /* Giới hạn chiều rộng danh mục */
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis; /* Thêm dấu ... nếu tên quá dài */
+    cursor: pointer; /* Thêm hiệu ứng con trỏ khi hover */
+  }
+  
+  .mcp-tree-title {
+    margin-right: 10px;
+    flex-grow: 1; /* Cho phép phần tên mở rộng nếu có không gian */
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis; /* Hiển thị dấu ... */
+    width: 130px; /* Giới hạn chiều rộng tối đa của tên */
+  }
+  
+  .mcp-tree-node:hover .mcp-tree-title {
+    text-decoration: underline; /* Thêm hiệu ứng underline khi hover */
+  }
+  
+  .mcp-tree-actions {
+    margin-left: 10px; /* Giãn cách các hành động ra xa tên danh mục */
+  }
+  
+  
+  .mcp-add-category-button {
+    background-color: #1890ff;
+    color: white;
+  }
+  
+  .mcp-add-subcategory-button {
+    margin-left: 10px;
+    background-color: #52c41a;
+    color: white;
+    border: none;
+  }
+  
+  .mcp-edit-button {
+    margin-right: 5px;
+  }
+  
+  .mcp-delete-button {
+    margin-right: 5px;
+  }
+  
+  .mcp-modal .ant-modal-footer {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .mcp-search-input {
+    height: 24px; /* Điều chỉnh chiều cao của ô tìm kiếm */
+    line-height: 24px; /* Đảm bảo rằng nút search nằm cùng hàng với ô nhập liệu */
+  }
+  
+  .ant-input-search-button {
+    height: 24px; /* Đồng bộ chiều cao của nút tìm kiếm với ô nhập liệu */
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .mcp-actions
+  input{
+    height: 24px;
+  }
+
+  .ant-tree-list-holder{
+    padding:  10px;
+  }

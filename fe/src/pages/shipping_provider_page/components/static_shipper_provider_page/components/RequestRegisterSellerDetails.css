@@ -1,0 +1,124 @@
+/* Tổng quát */
+.rrsd-container {
+  max-width: 800px;
+  margin: 20px auto;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.rrsd-title {
+  text-align: center;
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+/* Bảng */
+.rrsd-table {
+  display: table;
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.rrsd-table-row {
+  display: table-row;
+}
+
+.rrsd-label,
+.rrsd-value {
+  display: table-cell;
+  padding: 10px 15px;
+  vertical-align: middle;
+  border: 1px solid #e0e0e0;
+}
+
+.rrsd-label {
+  background-color: #f9f9f9;
+  font-weight: bold;
+  color: #555;
+}
+
+.rrsd-value {
+  color: #333;
+}
+
+.rrsd-image {
+  max-width: 100px;
+  height: auto;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Nút hành động */
+.rrsd-actions {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.rrsd-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 0 10px;
+  transition: all 0.3s ease;
+}
+
+.rrsd-accept {
+  background-color: #4caf50;
+  color: #fff;
+}
+
+.rrsd-accept:hover {
+  background-color: #45a049;
+}
+
+.rrsd-reject {
+  background-color: #f44336;
+  color: #fff;
+}
+
+.rrsd-reject:hover {
+  background-color: #e53935;
+}
+
+/* Popup */
+.rrsd-popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 600px;
+  transform: translate(-50%, -50%);
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+}
+
+.rrsd-popup-content {
+  text-align: center;
+}
+
+.rrsd-popup-buttons {
+  margin-top: 20px;
+}
+
+.rrsd-textarea {
+  height: 200px;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.rrsd-checkbox {
+  display: block;
+  margin: 10px 0;
+}

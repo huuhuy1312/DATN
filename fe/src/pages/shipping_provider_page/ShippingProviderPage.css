@@ -1,0 +1,216 @@
+.spp-container {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background-color: #f4f4f9;
+    display: flex;
+    min-height: 100vh;
+  }
+  
+  .spp-sidebar {
+    width: 15%;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  .spp-sidebar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .spp-sidebar ul li {
+    padding: 12px 0;
+    color: #cc6600; /* Màu cam đậm cho chữ */
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+  
+  .spp-sidebar ul li:hover {
+    color: #ff6600; /* Màu cam sáng khi hover */
+  }
+  
+  .spp-sidebar ul li.active {
+    font-weight: bold;
+    color: #ff6600; /* Màu cam sáng cho mục đang chọn */
+  }
+  
+  .spp-main-content {
+    flex: 1;
+    padding: 30px;
+    background-color: white;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin-left: 20px;
+    border-radius: 8px;
+  }
+  
+  .spp-title {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #ff6600; /* Màu cam đậm cho tiêu đề */
+    font-weight: bold;
+  }
+  
+  .spp-search-bar {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 25px;
+  }
+  
+  .spp-search-bar input,
+  .spp-search-bar select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: border-color 0.3s ease;
+  }
+  
+  .spp-search-bar input:focus,
+  .spp-search-bar select:focus {
+    border-color: #ff9933; /* Viền cam khi focus */
+  }
+  
+  .spp-search-bar button {
+    padding: 10px 20px;
+    background-color: #ff9933; /* Nút màu cam */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .spp-search-bar button:hover {
+    background-color: #ff6600; /* Đổi màu nút khi hover */
+  }
+  
+  .spp-actions {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 25px;
+  }
+  
+  .spp-actions button {
+    padding: 10px 20px;
+    background-color: #ff9933; /* Nút màu cam */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .spp-actions button:hover {
+    background-color: #ff6600; /* Đổi màu nút khi hover */
+  }
+  
+  .spp-order-summary {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+  }
+  
+  .spp-summary-item {
+    background-color: #fff3e0; /* Màu cam rất nhạt cho nền */
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    flex: 1;
+    margin-right: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .spp-summary-item:last-child {
+    margin-right: 0;
+  }
+  
+  .spp-summary-item:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15); /* Hiệu ứng hover cho từng mục */
+  }
+  
+  .spp-summary-item h2 {
+    color: #ff6600; /* Màu cam cho phần số lượng */
+    margin-top: 8px;
+    font-size: 24px;
+  }
+  
+  .spp-summary-item p {
+    height: 50%;
+    color: #cc6600; /* Màu cam đậm cho phần mô tả */
+  }
+  
+  
+
+
+  .spp-summary-item-choose {
+    background-color: #fd8637; /* Màu cam rất nhạt cho nền */
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    flex: 1;
+    margin-right: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .spp-summary-item-choose:last-child {
+    margin-right: 0;
+  }
+  
+  .spp-summary-item-choose:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15); /* Hiệu ứng hover cho từng mục */
+  }
+  
+  .spp-summary-item-choose h2 {
+    color: white; /* Màu cam cho phần số lượng */
+    margin-top: 8px;
+    font-size: 24px;
+  }
+  
+  .spp-summary-item-choose p {
+    height: 50%;
+    color: white; /* Màu cam đậm cho phần mô tả */
+  }
+  .spp-order-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  .spp-order-table thead {
+    background-color: #ff6600; /* Nền tiêu đề bảng màu cam */
+    color: white;
+  }
+  
+  .spp-order-table th,
+  .spp-order-table td {
+    padding: 12px;
+    border: 1px solid #ccc;
+    text-align: left;
+  }
+  
+  .spp-order-table th {
+    background-color: #ff6600; /* Nền tiêu đề bảng màu cam */
+    color: white;
+  }
+  
+  .spp-order-table td {
+    color: #333;
+  }
+  
+  .spp-order-table td button {
+    padding: 6px 12px;
+    background-color: #ff9933; /* Nút cam trong bảng */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .spp-order-table td button:hover {
+    background-color: #ff6600; /* Đổi màu nút khi hover */
+  }
+  

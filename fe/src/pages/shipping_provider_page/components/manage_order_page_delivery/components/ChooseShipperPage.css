@@ -1,0 +1,74 @@
+.csp-layout{
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+.csp-container{
+    background-color: white;
+    width: 60rem;
+    max-width: 100%;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    position: relative;
+}
+.csp-content{
+    display: flex;
+    margin-top: 20px;
+
+}
+.csp-item{
+    width: 100%;
+    padding: 10px 30px;
+
+
+}
+.csp-options{
+    max-height: 40rem;
+    overflow-y: scroll;
+}
+.address-seller {
+    background-color: white; /* Màu nền nhẹ để làm nổi bật */
+    border: 1px solid #e0e0e0; /* Đường viền mềm để tạo khung */
+    border-radius: 8px; /* Các góc bo tròn */
+    padding: 15px; /* Khoảng cách bên trong */
+    margin-top: 20px; /* Khoảng cách phía trên */
+    text-align: left; /* Căn chỉnh nội dung bên trái */
+}
+
+.address-seller h2 {
+    font-size: 1.5rem; /* Kích thước chữ lớn hơn */
+    margin-bottom: 10px; /* Khoảng cách dưới tiêu đề */
+    
+}
+
+.address-seller div {
+    font-size: 1.4rem; /* Kích thước chữ vừa phải */
+    color: #666; /* Màu chữ nhẹ để dễ đọc */
+    margin-bottom: 5px; /* Khoảng cách giữa các dòng */
+}
+.csp-btn{
+    margin-top: 30px;
+    background-color: #ff5722;
+    border: none;
+    font-size: 20px;
+    padding: 10px 25px;
+    color: white;
+    border-radius: 10px;
+}
+
+.csp-address{
+    white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 100%;
+  text-align: left;
+}

@@ -1,0 +1,82 @@
+.cb-header{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background-color: antiquewhite;
+    justify-content: space-between;
+    padding: 0px 1rem;
+    height: 10%;
+}
+.cb-body{
+    height: 90%;
+    width: 100%;
+    display: flex;
+}
+.cb-navbar{
+    width: 35%;
+    padding: 3px;
+    border-right: 1px solid rgba(0,0,0,0.3);
+    height: 100%;
+}
+.cb-search{
+    border: 1px solid rgba(0,0,0,0.3);
+    align-items: center;
+    margin-bottom: 1rem;
+    padding-left: 3px;
+}
+
+.cb-navbar-user-item{
+    display: flex;
+}
+.cb-content{
+    width:  65%;
+    
+}
+.cb-content-header{
+    padding: 0.5rem 1rem;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+.cb-message-list{
+  overflow-y: scroll;
+  height: 87%;
+  margin-bottom: 0.3rem;
+  padding: 0.5rem;
+}
+.cb-input{
+  
+  margin: auto;
+}
+.cb-input
+input{
+  padding: 1rem;
+}
+.cb-content-body {
+    flex: 1;
+    height: 80%;
+
+  }
+  .cb-content {
+    display: flex;
+    flex-direction: column;
+  }
+  .cb-message {
+    flex: 1;
+    overflow-y: auto; /* để phần tin nhắn cuộn nếu quá dài */
+  }
+  
+  .cb-input {
+    margin-top: auto;
+  }
+  .cb-message-user{
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+
+  .cb-message-reception{
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5rem;
+    
+}

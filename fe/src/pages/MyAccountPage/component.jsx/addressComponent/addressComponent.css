@@ -1,0 +1,104 @@
+.address-form {
+    font-family:  sans-serif;
+
+}
+.address-form-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid gray;
+    padding: 10px 30px;
+}
+
+  
+  .add-btn {
+    background-color: #3498dbc4;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 12px;
+  }
+  
+  .address-list {
+    border-top: 1px solid #ccc;
+    padding: 10px 30px;
+  }
+  
+  .address-item-profile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px;
+    margin: 0px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .address-info-profile {
+    padding: 0;
+    flex: 1;
+  }
+  
+  .name-phone {
+    font-weight: bold;
+    font-size: 16px;
+    display: flex;
+
+  }
+  
+  .name-phone span {
+    margin-left: 10px;
+    font-size: 14px;
+    color: gray;
+  }
+  
+  .default-label,
+  .pickup-label {
+    display: inline-block;
+    color: #03a9f4;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-size: 12px;
+    margin-top: 5px;
+    border: 1px solid #03a9f4;
+  }
+  
+  .pickup-label {
+    background-color: #03a9f4;
+  }
+  
+  .warning {
+    background-color: #fff8e1;
+    padding: 8px;
+    margin-top: 5px;
+    color: #3498dbc4;
+    font-size: 13px;
+  }
+  .address-actions{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  .address-actions-1 {
+    display: flex;
+    align-items: flex-end;
+  }
+  
+  .action-btn {
+    color: #03a9f4;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-bottom: 5px;
+  }
+  
+  
+  .set-default-btn {
+    background-color: transparent;
+    color: #3498dbc4;
+    border: 1px solid #3498dbc4;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  

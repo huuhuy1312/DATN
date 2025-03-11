@@ -1,0 +1,124 @@
+/* Basic styles for the page */
+.vdsp-container {
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  
+  .vdsp-header {
+    text-align: center;
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .vdsp-shop-info {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .vdsp-shop-info-item {
+    flex: 1 1 calc(50% - 20px);
+    margin-bottom: 15px;
+    display: flex;
+  }
+  
+  .vdsp-shop-info-item label {
+    margin-right: 5px;
+    font-weight: bold;
+    color: #333;
+    display: block;
+    font-size: 16px;
+  }
+  
+  .vdsp-shop-info-item p {
+    margin: 0;
+    color: #555;
+    font-size: 16px;
+  }
+  
+  .vdsp-shop-info-item img {
+    max-width: 100%;
+    margin-top: 10px;
+    display: block;
+    border-radius: 5px;
+  }
+  
+  .vdsp-shop-info-item img#id-card-img,
+  .vdsp-shop-info-item img#holding-id-card-img {
+    width: 200px;
+    height: auto;
+  }
+  
+  /* Styling for product list */
+  .vdsp-product-list table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .vdsp-product-list th,
+  .vdsp-product-list td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+  
+  .vdsp-product-list th {
+    background-color: #f2f2f2;
+    color: #333;
+  }
+  
+  .vdsp-product-list td {
+    background-color: #fff;
+    color: #555;
+  }
+  
+  .vdsp-product-list td:hover {
+    background-color: #f9f9f9;
+  }
+  
+  /* Responsive design for smaller screens */
+  @media (max-width: 768px) {
+    .vdsp-shop-info-item {
+      flex: 1 1 100%; /* 100% width on smaller screens */
+    }
+  
+    .vdsp-product-list table {
+      font-size: 14px;
+    }
+  
+    .vdsp-product-list th,
+    .vdsp-product-list td {
+      padding: 8px;
+    }
+  }
+  
+
+  .vdsp-pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .vdsp-pagination-button {
+    padding: 10px;
+    margin: 0 5px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .vdsp-pagination-button.active {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .vdsp-pagination-button:hover {
+    background-color: #f1f1f1;
+  }
+  

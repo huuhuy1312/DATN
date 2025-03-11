@@ -1,0 +1,220 @@
+.vdpp-review-section {
+    width: 100%;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px auto;
+}
+
+/* Header */
+.vdpp-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.vdpp-header h2 {
+    font-size: 24px;
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Rating Summary */
+.vdpp-rating-summary {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 20px;
+}
+
+.vdpp-average-rating {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.vdpp-average-rating h1 {
+    font-size: 36px;
+    color: #3498db;
+}
+
+.vdpp-average-rating p {
+    font-size: 16px;
+    color: #555;
+}
+
+.vdpp-star-rating {
+    color: #3498db;
+    font-size: 24px;
+}
+
+/* Review Stats with Filter Buttons */
+.vdpp-review-stats {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.vdpp-filter-button {
+    padding: 8px 12px;
+    background-color: #a0d5f8;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.vdpp-filter-button.active {
+    background-color: #3498db;
+}
+
+/* Review Content */
+.vdpp-review {
+    border-bottom: 1px solid #ddd;
+    padding: 20px 0;
+    margin-bottom: 20px;
+}
+
+.vdpp-review-header {
+
+    justify-content: space-between;
+    align-items: center;
+}
+
+.vdpp-reviewer-name {
+    font-weight: bold;
+    color: #333;
+    font-size: 16px;
+}
+
+.vdpp-review-date {
+    font-size: 12px;
+    color: #777;
+}
+
+.vdpp-star-rating {
+    font-size: 16px;
+    color: #fae845;
+    margin-left: auto;
+}
+
+/* Review Detail Styling */
+.vdpp-review-detail {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
+
+/* Review Text */
+.vdpp-review-text {
+    font-size: 15px;
+    color: #333;
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
+
+/* Review Images */
+.vdpp-review-images {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.vdpp-review-images img {
+    width: 60px;
+    height: 60px;
+    border-radius: 5px;
+    object-fit: cover;
+    border: 1px solid #ddd;
+    transition: transform 0.2s;
+}
+
+.vdpp-review-images img:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+/* Seller Reply Styling */
+.vdpp-seller-reply {
+    background-color: #c6e5fa;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #555;
+    line-height: 1.6;
+    margin-top: 15px;
+    border-left: 4px solid #3498db;
+}
+
+.vdpp-seller-reply p {
+    margin: 0;
+    font-weight: 500;
+}
+
+.vdpp-seller-reply strong {
+    color: #3498db;
+}
+.vdpp-average-rating {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.vdpp-average-rating h1 {
+    font-size: 36px;
+    color: #f39c12;
+    margin: 0;
+}
+
+.vdpp-average-rating p {
+    font-size: 16px;
+    color: #555;
+    margin: 0;
+}
+
+.vdpp-star-rating {
+    position: relative;
+    font-size: 24px;
+    line-height: 1;
+    display: inline-block;
+    color: #ddd; /* Color for empty stars */
+}
+
+.vdpp-star-background {
+    color: #ddd; /* Empty star color */
+}
+
+.vdpp-star-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #f39c12; /* Filled star color */
+    white-space: nowrap;
+    overflow: hidden;
+    width: 0; /* Controlled dynamically */
+}
+.two-line-ellipsis {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    -webkit-line-clamp: 2;
+    text-overflow: ellipsis;
+  }
+  .product-card {
+    padding: 10px 10px;
+    
+    margin-bottom: 10px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    transition: all 0.3s ease; /* Smooth transition for hover effect */
+  }
+  
+  .product-card:hover {
+    transform: translateY(-5px); /* Moves the card up slightly */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Slightly stronger shadow on hover */
+  }  

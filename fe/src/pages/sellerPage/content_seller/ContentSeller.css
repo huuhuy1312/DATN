@@ -1,0 +1,208 @@
+.main-content-seller {
+    margin-left: 270px;
+    padding: 20px;
+    width: calc(100% - 270px);
+    background-color: white;
+    margin-right: 50px;
+}
+
+.order-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.add-order-btn {
+    background-color: #3498db;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.add-order-btn:hover {
+    background-color: #2980b9;
+}
+
+.order-filters {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.order-filters input,
+.order-filters select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    flex: 1;
+}
+
+.order-list-seller table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+.order-list-seller table th,
+.order-list-seller table td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.order-list-seller table th {
+    background-color: #f5f5f5;
+}
+
+.order-list-seller table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.order-list-seller a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+
+/* tabs 
+*/
+
+/* Tabs styles */
+.tabs {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+}
+
+.tab {
+    padding: 10px 20px;
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-weight: 500;
+    color: #333;
+}
+
+.tab:hover {
+    background-color: #e0e0e0;
+}
+
+.tab.active {
+    background-color: #3498db;
+    color: white;
+    border: 1px solid #3498db;
+}
+
+.tab.active:hover {
+    background-color: #2980b9;
+}
+
+/* Remaining content styles remain unchanged */
+.main-content {
+    margin-left: 270px;
+    padding: 20px;
+    width: calc(100% - 270px);
+}
+
+.order-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.add-order-btn {
+    background-color: #3498db;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.add-order-btn:hover {
+    background-color: #2980b9;
+}
+
+.order-filters {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.order-filters input,
+.order-filters select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    flex: 1;
+}
+
+.order-list-seller table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+.order-list-seller table th,
+.order-list-seller table td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.order-list-seller table th {
+    background-color: #f5f5f5;
+}
+
+.order-list-seller table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.order-list-seller a {
+    color: #3498db;
+    text-decoration: none;
+}
+/* Tùy chỉnh thanh cuộn (scrollbar) */
+.custom-scrollbar {
+    max-height: 120px;
+    overflow-y: scroll;
+    scrollbar-width: thin; /* Cho Firefox */
+    scrollbar-color:  rgba(0,0,0,0.1); /* Cho Firefox */
+}
+
+/* Cho Webkit (Chrome, Safari, Edge) */
+.custom-scrollbar::-webkit-scrollbar {
+    width: 8px;
+}
+
+/* Ẩn đầu trên và dưới của thanh cuộn */
+.custom-scrollbar::-webkit-scrollbar-button {
+    display: none;
+}
+
+/* Track của thanh cuộn */
+.custom-scrollbar::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.1); 
+}
+
+/* Phần kéo của thanh cuộn */
+.custom-scrollbar::-webkit-scrollbar-thumb {
+    background-color: #3498db; /* Màu của thanh cuộn */
+    border-radius: 8px; /* Bo góc nhẹ */
+    border: 2px solid transparent; /* Xóa viền nếu có */
+    background-clip: content-box; /* Đảm bảo bo góc không bị ảnh hưởng */
+}
+
+/* Hiệu ứng hover trên thanh cuộn */
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+    background-color: #1d6fa5; /* Màu khi hover */
+}
+
